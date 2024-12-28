@@ -1,0 +1,36 @@
+Analyzing password: "skata"
+(!) Password should have at least a length of 12 characters.
+(!) Password should contain at least 1 number.
+(!) Password should contain at least 1 special characters.
+(!) Password should contain at least 1 upper case letter.
+Password security requirements met: 2/6
+
+
+
+Analyzing password: "fata\"
+(!) Password should have at least a length of 12 characters.
+(!) Password should contain at least 1 number.
+(!) Password should contain at least 1 upper case letter.
+Password security requirements met: 3/6
+
+
+
+Analyzing password: "123"
+(!) Password should have at least a length of 12 characters.
+(!) Password should contain at least 1 special characters.
+(!) Password should contain at least 1 upper case letter.
+(!) Password should contain at least 1 lower case letter.
+Password security requirements met: 2/6
+
+
+
+Analyzing password: "123456789"
+(!) Password should have at least a length of 12 characters.
+(!) Password should contain at least 1 special characters.
+(!) Password should contain at least 1 upper case letter.
+(!) Password should contain at least 1 lower case letter.
+(!) This password exists in the top 100 most common list.
+Password security requirements met: 1/6
+
+
+
