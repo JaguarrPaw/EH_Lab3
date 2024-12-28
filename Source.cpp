@@ -44,7 +44,7 @@ void displayInterface() {
 	cout << " 5) Exit\n\n";
 }
 
-
+// Calls the appropriate function depending on user's selection
 void optionSelection() {
 	int option = 0;
 	bool validOption = false;
@@ -80,13 +80,15 @@ void optionSelection() {
 	}
 }
 
+
 string getPassword() {
-	cout << "\nPlease enter your password bro:\n -->";
+	cout << "\nPlease enter your password bro:\n --> ";
 	string str;
 	cin >> str;
 	return str;
 }
 
+//Used for option 4, how many paasswords to generate
 int getNumOfPasswords() {
 	int num = 0;
 	cout << "\nHow many weak passwords to generate?\n";

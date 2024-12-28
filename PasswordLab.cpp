@@ -82,6 +82,7 @@ string PasswordLab::passwordAnalyzer(string password) {
 	return result;
 }
 
+//Second option - generate a secure password
 string PasswordLab::passwordSecureGenerator() {
 
 	string res = "";
@@ -103,7 +104,7 @@ string PasswordLab::passwordSecureGenerator() {
 	return res;
 }
 
-
+//Third option - analyze a list of passwords and store in Results.txt
 int PasswordLab::listAnalyzer() {
 	PasswordLab lab;
 
@@ -135,6 +136,7 @@ int PasswordLab::listAnalyzer() {
 	return 0;
 }
 
+//Fourth option - generate weak passwords
 int PasswordLab::generateWeakPasswords(int n) {
 	ofstream resultFile;
 	resultFile.open("WeakPasswords.txt");
